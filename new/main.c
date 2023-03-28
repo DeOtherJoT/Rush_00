@@ -1,6 +1,6 @@
 void	rush(int x, int y);
 
-int		ft_atoi(char **str);
+int		ft_atoi(char *str);
 
 int	main(int argc, char **argv)
 {
