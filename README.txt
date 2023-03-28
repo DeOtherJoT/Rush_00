@@ -1,5 +1,12 @@
 The 'old' directory contains the files that were submitted in the old Piscine.
 
-The new 'expected' directory contains the expected output files if the command rush(123, 42) was run, created to be used with the command diff.
+The 'autorun' directory now contains a way to compare the Rush project to be evaluated.
 
-The new 'updated' directory contains an updated version of the rush code submitted earlier, as well as an updated main.c file.
+How to use autorun :-
+cd into the directory, run 
+make diff IN_X=<the value of x> IN_Y=<the value of y> TARGET=<which rush to compile>
+
+if there is a difference between the two files, there is an error in either the generated
+answer or evaluated answer, most likely the latter. Careful inspection is still necessary.
+
+If the files match, then diff does not output anything.

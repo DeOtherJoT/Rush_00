@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jthor <jthor@student.42kl.edu.my>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/03/28 14:57:24 by jthor             #+#    #+#             */
+/*   Updated: 2023/03/28 14:57:27 by jthor            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 void	rush(int x, int y, int flag);
 
 int	ft_atoi(char *str)
@@ -27,5 +39,5 @@ int	main(int argc, char **argv)
 {
 	if (argc == 4)
 		rush(ft_atoi(argv[1]), ft_atoi(argv[2]), ft_atoi(argv[3]));
-	return(0);
+	return (0);
 }
